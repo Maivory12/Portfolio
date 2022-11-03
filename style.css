@@ -4,6 +4,9 @@
     margin: 0;
 
 }
+html {
+    scroll-behavior: smooth;
+}
  /*header styling starts here*/
 
 .title {
@@ -11,7 +14,11 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50;
     background-color:dodgerblue;
-    color:bisque
+    color:bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
 .title nav {
@@ -20,6 +27,7 @@
     float:right;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
+    background-color: rgb(135, 222, 168);
 }
 
 .title nav ul li {
@@ -30,5 +38,98 @@
 
 a {
     color:bisque;
+}
+/*header styling ends here*/
+
+/* main styling starts here*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3%
+}
+
+
+main section h2{
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    justify-content: center;
+}
+
+#about-me {
+    height: 50vh;
+}
+
+#about-me img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#feature-project {
+    width: 100vw;
+    background-image: url("./images/Placeholder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#projects {
+  
+    
+    
+}
+
+#contact-me {
+    height: 600px;
+}
+
+#resume {
+    
+}
+
+#my-work, 
+#about-me img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.actual {
 
 }
+
+div p {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 13.3px;
+   }
+  
+
+.secondary img {
+    width: 500px;
+    width: 500px;
+    align-items: center;
+}
+
+.secondary {
+
+    width: 40%;
+    height: 300px;
+    margin: 40px;
+    justify-content:center;
+    display: flex;
+    flex-wrap: justify center;
+}
+/* main ends starts here*/
+
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }

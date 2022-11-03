@@ -35,9 +35,12 @@ html {
     margin-left: 30px;
  
 }
+ul li {
+    list-style: none;
+}
 
-a {
-    color:bisque;
+nav a {
+    color:rgba(231, 12, 12, 0.836);
 }
 /*header styling ends here*/
 
@@ -59,60 +62,34 @@ section {
 }
 
 #about-me {
-    height: 50vh;
-}
-
-#about-me img {
-    display: flex;
-    align-items: center;
+    height: 500px;
+    width: 100%;
     justify-content: center;
 }
 
-#feature-project {
-    width: 100vw;
-    background-image: url("./images/Placeholder.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-#projects {
-  
-    
-    
-}
-
-#contact-me {
-    height: 600px;
-}
-
-#resume {
-    
-}
-
-#my-work, 
 #about-me img {
+    width: 300px;
+    height: 300px;    
+} 
+
+#my-work
+ {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-
-.actual {
-
-}
-
-div p {
-    position: absolute;
-    margin-left: 0;
-    margin-top: 13.3px;
-   }
-  
-
-.secondary img {
-    width: 500px;
-    width: 500px;
     align-items: center;
+}
+
+
+#feature-project {
+    margin:auto;
+    height: 1000px;
+    width: 1500px;   
+}
+
+#feature-project img {
+    width: 100%;
+    height: 100%;
 }
 
 .secondary {
@@ -123,6 +100,25 @@ div p {
     justify-content:center;
     display: flex;
     flex-wrap: justify center;
+}
+.secondary img {
+    width: 500px;
+    width: 500px;
+    align-items: center;
+}
+
+div p {
+    position: absolute;
+    margin-left: 0;
+    margin-top: 13.3px;
+   }
+   
+#contact-me ul li,
+#resume ul li {
+
+    text-align: center;
+    justify-content: center;
+    height: 50px;
 }
 /* main ends starts here*/
 

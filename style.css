@@ -14,7 +14,7 @@ html {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50;
     background-color:dodgerblue;
-    color:bisque;
+    color:#fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -27,7 +27,7 @@ html {
     float:right;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 25px;
-    background-color: rgb(135, 222, 168);
+    background-color: #fff
 }
 
 .title nav ul li {
@@ -62,9 +62,11 @@ section {
 }
 
 #about-me {
-    height: 500px;
+    height: 100%;
     width: 100%;
-    justify-content: center;
+    text-align: center;
+    border-style:ridge;
+    margin: git auto;
 }
 
 #about-me img {

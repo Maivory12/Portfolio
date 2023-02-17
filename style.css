@@ -109,14 +109,10 @@ section {
     display: flex;
     flex-wrap: justify center;
 }
-.secondary img {
-    width: 500px;
-    width: 500px;
-    align-items: center;
-}
+
 
 div p {
-    position: absolute;
+   
     margin-left: 0;
     margin-top: 13.3px;
     color: firebrick;
